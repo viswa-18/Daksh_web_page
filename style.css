@@ -1,0 +1,112 @@
+/* Your CSS goes here */
+
+
+/* Example */
+
+img {
+    width: 20rem;
+}
+
+.page {
+    background-color: black;
+}
+
+* {
+    filter: blur(20%);
+}
+
+.main {
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: bolder;
+    font-size: 8rem;
+    padding-left: 21rem;
+    padding-right: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.whitemode {
+    text-decoration: none;
+    text-align: center;
+    transition: 50s ease-in-out;
+    position: absolute;
+}
+
+.main h1 {
+    background-image: url(https://media4.giphy.com/media/l3q2XB76CaWPggiNW/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.elements {
+    color: white;
+    margin: 3rem;
+    padding-left: 10rem;
+    padding-top: 3rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Segeo UI';
+}
+
+.elements h4 {
+    padding-right: 15rem;
+}
+
+article {
+    text-align: center;
+    padding-top: 28rem;
+}
+
+article p {
+    color: aqua;
+    font-size: 1.5rem;
+    font-family: 'Segeo UI';
+}
+
+.text {
+    font-size: 2rem;
+    font-family: 'Segeo UI';
+    margin: 5rem;
+    text-align: center;
+    color: white;
+}
+
+.footer1 {
+    padding-left: 25rem;
+}
+
+.logo img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.line {
+    background-color: white;
+    padding: 2rem;
+    font-size: 2rem;
+    font-family: 'Segeo UI';
+    background: linear-gradient(180deg, skyblue, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+fieldset {
+    color: turquoise;
+    border: 2px red dashed;
+}
+
+.btn {
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
